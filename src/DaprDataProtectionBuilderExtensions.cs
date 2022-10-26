@@ -18,9 +18,9 @@ namespace Microsoft.AspNetCore.DataProtection
 
         /// <summary>
         /// Configures the data protection system to persist keys to specified key in Redis database
-        /// </summary>
+        /// </summary>  
         /// <param name="builder">The builder instance to modify.</param>
-        /// <param name="databaseFactory">The delegate used to create <see cref="IDatabase"/> instances.</param>
+        /// <param name="databaseFactory">The delegate used to create instances.</param>
         /// <param name="storeName">Dapr state store name</param>
         /// <param name="key">The key used to store key list.</param>
         /// <returns>A reference to the <see cref="IDataProtectionBuilder" /> after this operation has completed.</returns>
