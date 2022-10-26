@@ -24,7 +24,7 @@ namespace Microsoft.AspNetCore.DataProtection
         /// <param name="storeName">Dapr state store name</param>
         /// <param name="key">The key used to store key list.</param>
         /// <returns>A reference to the <see cref="IDataProtectionBuilder" /> after this operation has completed.</returns>
-        public static IDataProtectionBuilder PersistKeysToStackCSRedis(this IDataProtectionBuilder builder,
+        public static IDataProtectionBuilder PersistKeysToStackDapr(this IDataProtectionBuilder builder,
             Func<DaprClient> databaseFactory,
             string storeName,
             string key)
