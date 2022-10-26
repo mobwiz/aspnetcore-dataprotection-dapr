@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Support for storing data protection keys in Redis.</Description>
+	  <TargetFramework>net6.0</TargetFramework>
+	  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore;dataprotection;redis</PackageTags>
+    <IsShippingPackage>true</IsShippingPackage>
+    <AssemblyName>Microsoft.AspNetCore.DataProtection.Dapr</AssemblyName>
+    <RootNamespace>Microsoft.AspNetCore.DataProtection.Dapr</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>6.0.10</Version>
+    <AssemblyVersion>3.1.22.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapr.Client" Version="1.8.0" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="6.0.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
